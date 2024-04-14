@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>watch store</title>
+</head>
+
+<body>
+
+  <header>
+    <nav class="bg-white border-gray-200 dark:bg-gray-800">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <div class="flex items-center space-x-3 rtl:space-x-reverse">
+          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Absolutime</span>
+        </div>
+        <button data-collapse-toggle="navbar-default" type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-default" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15" />
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-800 dark:border-gray-700">
+            <li>
+              <a href="#product"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Products</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <div class="hero min-h-screen bg-base-200">
+        <div class="hero-content flex-col lg:flex-row">
+          <img src="image/watch.jpg" alt="watch" class="min-w-sm object-cover rounded-lg lg:w-60 sm:w-64 shadow-2xl" />
+          <div>
+            <h1 class="text-5xl font-bold text-white">Experience Timelessness with Absolutime Watches !</h1>
+            <p class="py-6">Embrace the essence of timeless elegance with Absolutime watches. Each timepiece is a
+              masterpiece of precision engineering and exquisite craftsmanship, designed to accompany you on every
+              journey, from the boardroom to the ballroom. Discover the perfect blend of style, sophistication, and
+              reliability with Absolutime.</p>
+            <button type="button" class="btn btn-primary"><a href="#product">Get Started</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="product" class="m-2 grid md:grid-cols-2 lg:grid-cols-4">
+      <div class="card p-2 w-auto bg-base-100 shadow-xl">
+        <figure><img src="image/montre1.jpg" alt="Shoes" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">ChronoCraft</h2>
+          <p>Dive into timeless elegance with the ChronoCraft, a timepiece of exceptional precision, crafted for those
+            who appreciate the perfect blend of style and functionality.</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Shop Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="card p-2  w-auto bg-base-100 shadow-xl">
+        <figure><img src="image/montre5.jpg" alt="Shoes" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">Luminique</h2>
+          <p>Illuminate your style with the Luminique, a sophisticated watch that captures the glow of light and
+            expresses it through its elegant design and refined details.</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Shop Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="card p-2  w-auto bg-base-100 shadow-xl">
+        <figure><img src="image/montre3.jpg" alt="Shoes" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">NebulaX</h2>
+          <p>Explore the mysteries of the universe with the NebulaX, a watch that captures the essence of the stars and
+            transports you to infinite horizons, where time takes on a whole new dimension.</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Shop Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="card p-2  w-auto bg-base-100 shadow-xl">
+        <figure><img src="image/montre4.jpg" alt="Shoes" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">EternaGlide</h2>
+          <p>Glide through time with effortless grace with the EternaGlide, a watch of incomparable elegance that evokes
+            grace and harmony, inviting you to savor every moment with serenity. </p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer footer-center p-4 bg-base-300 text-base-content">
+    <aside>
+      <p>Copyright © 2024 - All right reserved by Mbaye Diao</p>
+    </aside>
+  </footer>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+
+</html>
